@@ -38,3 +38,9 @@ python train.py --model_type adaboost --max_depth 1 --min_samples_split 2 --crit
 ```bash
 python cross_validation.py -d 1 2 -s 2 3 -c entropy gini
 ```
+
+---
+
+## Notes
+
+AdaBoost demonstrated strong performance when weak learners were sufficiently constrained. Increasing base learner complexity led to diminishing returns and higher variance.
