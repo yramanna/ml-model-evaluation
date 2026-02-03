@@ -2,8 +2,6 @@
 
 This repository contains the final project report for a comparative study of supervised machine learning models. The project focuses on understanding model behavior, performance trade-offs, and the effects of feature engineering and hyperparameter tuning by implementing all algorithms **from scratch** in Python.
 
-The full technical report is written in LaTeX and is provided as `main.tex`.
-
 ---
 
 ## Overview
