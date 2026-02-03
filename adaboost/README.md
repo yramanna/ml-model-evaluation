@@ -33,7 +33,8 @@ The following hyperparameters were explored via cross-validation:
 ### Training with Fixed Hyperparameters
 ```bash
 python train.py --model_type adaboost --max_depth 1 --min_samples_split 2 --criterion entropy
-
+```
 ### Cross Validation
 ```bash
 python cross_validation.py -d 1 2 -s 2 3 -c entropy gini
+```
