@@ -35,3 +35,9 @@ python train.py -m decision_tree -d 10 -s 5 -c gini
 ```bash
 python cross_validation.py -d 13 14 15 -s 2 5 -c entropy gini
 ```
+
+---
+
+## Notes
+
+Shallow trees generalized well but underfit complex decision boundaries, while deeper trees exhibited overfitting without sufficient regularization.
